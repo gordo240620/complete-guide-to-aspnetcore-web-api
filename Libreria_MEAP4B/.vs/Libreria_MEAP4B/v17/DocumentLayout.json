@@ -11,9 +11,6 @@
       "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_AL6JHDT_SQLEXPRESS/my_books_db2/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,12 +58,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.Books [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_AL6JHDT_SQLEXPRESS/my_books_db2/True/SqlTable/dbo.Books.sql",
-              "ToolTip": "dbo.Books [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-08T17:49:24.393Z",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T15:36:03.464Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -77,40 +78,28 @@
               "RelativeDocumentMoniker": "Data\\Services\\BookService.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\BookService.cs",
               "RelativeToolTip": "Data\\Services\\BookService.cs",
-              "ViewState": "AgIAAA0AAAAAMjMzMzMbwBkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAMjMzMzMbwEMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:39:31.684Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAcAAADQMTMzMzMrwBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:36:03.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Book.cs",
               "RelativeToolTip": "Data\\Models\\Book.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAABqPQQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwvRAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T21:23:12.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AppDbinitializer.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\AppDbinitializer.cs",
               "RelativeDocumentMoniker": "Data\\AppDbinitializer.cs",
@@ -123,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -136,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BookVM.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\BookVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\BookVM.cs",
@@ -149,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\AppDbContext.cs",
@@ -162,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -175,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -188,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -203,7 +192,7 @@
         },
         {
           "DockedHeight": 29,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -214,8 +203,12 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "20241108150839_InitialDataBaseMigration.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Migrations\\20241108150839_InitialDataBaseMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20241108150839_InitialDataBaseMigration.cs",
@@ -225,10 +218,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:08:40.428Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
