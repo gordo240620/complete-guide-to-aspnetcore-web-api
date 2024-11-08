@@ -1,4 +1,6 @@
-using Libreria_MEAP4B.Data.Models;
+using Libreria_MEAP4B.Data;
+using Libreria_MEAP4B.Data.Services;
+using Libreria_MEAP4B.Data.ViewModels;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +35,10 @@ namespace Libreria_MEAP4B
 
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
+
+            //Conigurar el servicio para que pueda ser usado
+            services.AddTransient<BookService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Libreria_MEAP4B", Version = "v1" });
@@ -59,6 +65,7 @@ namespace Libreria_MEAP4B
             {
                 endpoints.MapControllers();
             });
+            AppDbinitializer.Seed(app);
         }
     }
 }

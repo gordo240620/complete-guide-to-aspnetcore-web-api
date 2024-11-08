@@ -90,3 +90,4 @@ C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\refint
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.pdb
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.genruntimeconfig.cache
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\ref\Libreria_MEAP4B.dll
+C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.sourcelink.json
