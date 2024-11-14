@@ -76,6 +76,7 @@ C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Librer
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.csproj.CoreCompileInputs.cache
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.sourcelink.json
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.RazorTargetAssemblyInfo.cache
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\scopedcss\bundle\Libreria_MEAP4B.styles.css
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\staticwebassets\Libreria_MEAP4B.StaticWebAssets.Manifest.cache
@@ -90,4 +91,3 @@ C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\refint
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.pdb
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.genruntimeconfig.cache
 C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\ref\Libreria_MEAP4B.dll
-C:\Users\pablo\Downloads\Libreria_MEAP4B\Libreria_MEAP4B\obj\Debug\net5.0\Libreria_MEAP4B.sourcelink.json

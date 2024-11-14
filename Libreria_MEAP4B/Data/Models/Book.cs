@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Security.Policy;
 
 namespace Libreria_MEAP4B.Data.Models
 {
@@ -23,5 +25,12 @@ namespace Libreria_MEAP4B.Data.Models
         public string CoverUrl { get; set; }
 
         public DateTime dateAdded { get; set; }
+
+        //Propiedades de navegacion(en esta parte es donde "mapeamos")
+        public int PublisherId { get; set; }
+
+        public Publisher Publisher { get; set; }
+
+        public List<BookAuthor> BookAuthors { get; set; }
     }
 }
