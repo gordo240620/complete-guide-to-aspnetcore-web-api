@@ -17,7 +17,7 @@ namespace Libreria_MEAP4B.Data.Services
             _context = context;
         }
         //Metodo que nos permite agregar un nuevo libro en a BD
-        public void AddBook(BookVM book)
+        public void AddBookWithAutors(BookVM book)
         {
             var _book = new Book()
             {
@@ -26,13 +26,26 @@ namespace Libreria_MEAP4B.Data.Services
                 IsRead = book.IsRead,
                 DateRead = book.DateRead,
                 Rate = book.Rate,
-                Genero = book.Genero,
-                Autor = book.Autor,
+                Genero = book.Genero,    
+                
                 CoverUrl = book.CoverUrl,
                 dateAdded = DateTime.Now,
+                PublisherId = book.PublisherID,
+
             };
             _context.Books.Add(_book);
             _context.SaveChanges();
+
+            foreach (var id in book.AutorIDs)
+            {
+                var _book_authors = new BookAuthor()
+                {
+                    BookId = _book.id,
+                    AuthorId = id
+                };
+                _context.BookAuthors.Add(_book_authors);
+                _context.SaveChanges();
+            }
         }
         //Metodo que nos permite obtrener una lista de todos los libros de a BD
         public List<Book> GetAllBks() => _context.Books.ToList();
@@ -50,7 +63,7 @@ namespace Libreria_MEAP4B.Data.Services
                 _book.DateRead = book.DateRead;
                 _book.Rate = book.Rate;
                 _book.Genero = book.Genero;
-                _book.Autor = book.Autor;
+                
                 _book.CoverUrl = book.CoverUrl;
                 
                 _context.SaveChanges(true);

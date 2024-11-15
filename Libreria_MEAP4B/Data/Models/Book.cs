@@ -20,8 +20,6 @@ namespace Libreria_MEAP4B.Data.Models
 
         public string Genero { get; set; }
 
-        public string Autor { get; set; }
-
         public string CoverUrl { get; set; }
 
         public DateTime dateAdded { get; set; }

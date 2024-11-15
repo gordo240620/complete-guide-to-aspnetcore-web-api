@@ -31,10 +31,10 @@ namespace Libreria_MEAP4B.Controllers
             var book = _bookService.GetBookById(id);
             return Ok(book);
         }
-        [HttpPost("add-book")]
+        [HttpPost("add-book-with-authors")]
         public IActionResult AddBook([FromBody] BookVM book)
         {
-            _bookService.AddBook(book);
+            _bookService.AddBookWithAutors(book);
             return Ok();
         }
 

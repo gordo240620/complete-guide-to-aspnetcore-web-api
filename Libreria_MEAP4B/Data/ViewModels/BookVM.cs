@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Libreria_MEAP4B.Data.ViewModels
 {
@@ -16,8 +17,9 @@ namespace Libreria_MEAP4B.Data.ViewModels
 
         public string Genero { get; set; }
 
-        public string Autor { get; set; }
-
         public string CoverUrl { get; set; }
+        public int PublisherID { get; set; }
+
+        public List<int> AutorIDs { get; set; }
     }
 }

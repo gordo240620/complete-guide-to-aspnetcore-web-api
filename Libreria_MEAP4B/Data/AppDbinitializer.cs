@@ -24,7 +24,7 @@ namespace Libreria_MEAP4B.Data
                         DateRead = DateTime.Now.AddDays(-10),
                         Rate = 4,
                         Genero = "Biography",
-                        Autor = "1st Author",
+                        
                         CoverUrl = "https...",
                         dateAdded = DateTime.Now,
 
@@ -37,7 +37,6 @@ namespace Libreria_MEAP4B.Data
                         DateRead = DateTime.Now.AddDays(-10),
                         Rate = 4,
                         Genero = "Biography",
-                        Autor = "2nd Author",
                         CoverUrl = "https...",
                         dateAdded = DateTime.Now,
 
