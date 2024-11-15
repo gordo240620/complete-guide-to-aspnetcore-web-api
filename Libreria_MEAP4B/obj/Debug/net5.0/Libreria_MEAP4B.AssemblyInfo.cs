@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Libreria_MEAP4B")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fad9fa2d054b8ace68728b351a666b0d1befe61b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+362b4ebb5cb6b8724a6423f25b4c5beeb4f76af3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Libreria_MEAP4B")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Libreria_MEAP4B")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

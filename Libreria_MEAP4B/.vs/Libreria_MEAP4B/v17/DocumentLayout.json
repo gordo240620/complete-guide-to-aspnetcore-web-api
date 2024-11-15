@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\viewmodels\\publishervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\viewmodels\\publishervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\viewmodels\\authorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\viewmodels\\authorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,34 +63,6 @@
       "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\viewmodels\\publishervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\viewmodels\\publishervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\viewmodels\\authorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\viewmodels\\authorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\data\\viewmodels\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\viewmodels\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -74,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 305,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAABkAAAAAzczMzMwEwCQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAACA9P////8XwB4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:36:03.464Z",
               "IsPinned": true,
@@ -92,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Data\\Services\\BookService.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\BookService.cs",
               "RelativeToolTip": "Data\\Services\\BookService.cs",
-              "ViewState": "AgIAABMAAADgmZmZmRk9wBQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAtv/////3v0IAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:39:31.684Z",
               "IsPinned": true,
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Book.cs",
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "BookAuthor.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\BookAuthor.cs",
               "RelativeDocumentMoniker": "Data\\Models\\BookAuthor.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -147,26 +147,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "PublisherController.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\PublisherController.cs",
               "RelativeDocumentMoniker": "Controllers\\PublisherController.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\PublisherController.cs",
               "RelativeToolTip": "Controllers\\PublisherController.cs",
-              "ViewState": "AgIAAAQAAADAMzMzMzMLwBUAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwBUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T23:52:48.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "PublisherVM.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\PublisherVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\PublisherVM.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\PublisherVM.cs",
               "RelativeToolTip": "Data\\ViewModels\\PublisherVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAYMjMzMzM/wBQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T19:14:54.036Z",
               "EditorCaption": ""
@@ -186,46 +186,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "PublisherService.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\PublisherService.cs",
               "RelativeDocumentMoniker": "Data\\Services\\PublisherService.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\PublisherService.cs",
               "RelativeToolTip": "Data\\Services\\PublisherService.cs",
-              "ViewState": "AgIAAA0AAABAmZmZmZklwAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAABQMjMzMzMwwCsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T19:03:08.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthorsController.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\AuthorsController.cs",
               "RelativeToolTip": "Controllers\\AuthorsController.cs",
-              "ViewState": "AgIAAAQAAABAZmZmZmYkwBcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwBoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T18:55:16.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "AuthorVM.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\AuthorVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\AuthorVM.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\AuthorVM.cs",
               "RelativeToolTip": "Data\\ViewModels\\AuthorVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T18:46:33.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "AppDbinitializer.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\AppDbinitializer.cs",
               "RelativeDocumentMoniker": "Data\\AppDbinitializer.cs",
@@ -238,20 +238,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "BookVM.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\BookVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\BookVM.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\BookVM.cs",
               "RelativeToolTip": "Data\\ViewModels\\BookVM.cs",
-              "ViewState": "AgIAAAkAAAAA/P////8PwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAABwZmZmZmY4wBkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:57:17.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Publisher.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Publisher.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Publisher.cs",
@@ -264,13 +264,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "AuthorService.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\AuthorService.cs",
               "RelativeDocumentMoniker": "Data\\Services\\AuthorService.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\AuthorService.cs",
               "RelativeToolTip": "Data\\Services\\AuthorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAJjMzMzPjvyQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T18:41:01.429Z",
               "EditorCaption": ""
@@ -291,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "20241115011346_BookAuthorColumnRemoved.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Migrations\\20241115011346_BookAuthorColumnRemoved.cs",
               "RelativeDocumentMoniker": "Migrations\\20241115011346_BookAuthorColumnRemoved.cs",

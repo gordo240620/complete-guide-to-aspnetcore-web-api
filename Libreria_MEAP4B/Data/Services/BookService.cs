@@ -50,7 +50,22 @@ namespace Libreria_MEAP4B.Data.Services
         //Metodo que nos permite obtrener una lista de todos los libros de a BD
         public List<Book> GetAllBks() => _context.Books.ToList();
         //Metodo que nos permite obtener el libro que estamos pidiendo la BD
-        public Book GetBookById(int bookid) => _context.Books.FirstOrDefault(n => n.id == bookid);
+        public BookWithAuthorsVM GetBookById(int bookid)
+        {
+            var _bookWithAuthors = _context.Books.Where(n => n.id== bookid).Select(book => new BookWithAuthorsVM()
+            {
+                Titulo = book.Titulo,
+                Descripcion = book.Descripcion,
+                IsRead = book.IsRead,
+                DateRead = book.DateRead,
+                Rate = book.Rate,
+                Genero = book.Genero,
+                CoverUrl = book.CoverUrl,
+                PublisherName = book.Publisher.Name,
+                AutorNames = book.BookAuthors.Select(n => n.Author.FullName).ToList()
+            }).FirstOrDefault();
+            return _bookWithAuthors;
+        }
         //Metodo que nos permite odificar un libro que se encuentra en la BD
         public Book UpdateBookbyID(int bookid, BookVM book)
         {

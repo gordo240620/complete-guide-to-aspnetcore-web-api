@@ -1,6 +1,8 @@
 ﻿using Libreria_MEAP4B.Data.Models;
 using Libreria_MEAP4B.Data.ViewModels;
+using System.Linq;
 using System.Security.Policy;
+using static Libreria_MEAP4B.Data.ViewModels.PublisherWithBooksAndAuthorsVM;
 using Publisher = Libreria_MEAP4B.Data.Models.Publisher;
 
 
@@ -25,6 +27,21 @@ namespace Libreria_MEAP4B.Data.Services
             };
             _context.Publishers.Add(_publisher);
             _context.SaveChanges();
+        }
+
+        public PublisherWithBooksAndAuthorsVM GetPublisherData(int publisherId)
+        {
+            var _publisherData = _context.Publishers.Where(n => n.Id == publisherId)
+                .Select(n => new PublisherWithBooksAndAuthorsVM()
+                {
+                    Name = n.Name,
+                    BookAuthors = n.Books.Select(n => new BookAuthorVM()
+                    {
+                        BookName = n.Titulo,
+                        BookAuthors = n.BookAuthors.Select(n => n.Author.FullName).ToList()
+                    }).ToList()
+                }).FirstOrDefault();
+            return _publisherData;
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Libreria_MEAP4B.Controllers
 
         public PublisherController(PublisherService PublisherService)
         {
-            _PublisherService = PublisherService; 
+            _PublisherService = PublisherService;
         }
 
         [HttpPost("add-Publisher")]
@@ -22,5 +22,13 @@ namespace Libreria_MEAP4B.Controllers
             _PublisherService.AddPublisher(publisher);
             return Ok();
         }
+
+        [HttpGet("get-publisher-books-with-authors/{id}")]
+        public IActionResult GetPublisherData(int id)
+        {
+            var _reponse =_PublisherService.GetPublisherData(id);
+            return Ok(_reponse);
+        }
+        
     }
 }

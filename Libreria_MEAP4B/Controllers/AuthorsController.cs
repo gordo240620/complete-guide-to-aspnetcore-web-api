@@ -22,5 +22,12 @@ namespace Libreria_MEAP4B.Controllers
             _authorService.AddAhutor(author);
             return Ok();
         }
+
+        [HttpGet("get-author-with-books-by-id/{id}")]
+        public IActionResult GetAuthorWithBooks(int id)
+        {
+           var response = _authorService.GetAuthorWithBooksMV(id);
+            return Ok(response);
+        }
     }
 }
