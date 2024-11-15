@@ -38,6 +38,8 @@ namespace Libreria_MEAP4B
 
             //Conigurar el servicio para que pueda ser usado
             services.AddTransient<BookService>();
+            services.AddTransient<AuthorService>();
+            services.AddTransient<PublisherService>();
 
             services.AddSwaggerGen(c =>
             {
@@ -65,7 +67,7 @@ namespace Libreria_MEAP4B
             {
                 endpoints.MapControllers();
             });
-            AppDbinitializer.Seed(app);
+            //AppDbinitializer.Seed(app);
         }
     }
 }
