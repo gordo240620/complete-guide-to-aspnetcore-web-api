@@ -1,5 +1,6 @@
 ﻿using Libreria_MEAP4B.Data.Models;
 using Libreria_MEAP4B.Data.ViewModels;
+using System;
 using System.Linq;
 using System.Security.Policy;
 using static Libreria_MEAP4B.Data.ViewModels.PublisherWithBooksAndAuthorsVM;
@@ -42,6 +43,16 @@ namespace Libreria_MEAP4B.Data.Services
                     }).ToList()
                 }).FirstOrDefault();
             return _publisherData;
+        }
+
+        internal void DeletePublisherDataId(int id)
+        {
+            var _publisher = _context.Publishers.FirstOrDefault(n => n.Id == id);
+            if (_publisher != null)
+            {
+                _context.Publishers.Remove(_publisher); 
+                _context.SaveChanges();
+            }
         }
     }
 }

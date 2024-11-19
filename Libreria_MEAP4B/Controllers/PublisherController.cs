@@ -29,6 +29,13 @@ namespace Libreria_MEAP4B.Controllers
             var _reponse =_PublisherService.GetPublisherData(id);
             return Ok(_reponse);
         }
+
+        [HttpDelete("delete-publisher-by-id/{id}")]
+        public IActionResult DeletePublisherDataId(int id)
+        {
+            _PublisherService.DeletePublisherDataId(id);
+            return Ok();
+        }
         
     }
 }
