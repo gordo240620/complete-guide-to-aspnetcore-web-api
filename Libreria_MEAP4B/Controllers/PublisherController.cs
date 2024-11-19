@@ -19,8 +19,23 @@ namespace Libreria_MEAP4B.Controllers
         [HttpPost("add-Publisher")]
         public IActionResult AddPublisher([FromBody] PublisherVM publisher)
         {
-            _PublisherService.AddPublisher(publisher);
-            return Ok();
+            var newPublisher = _PublisherService.AddPublisher(publisher);
+            return Created(nameof(AddPublisher), newPublisher);
+        }
+        //copia 
+        [HttpGet("get-publisher-by-id/{id}")]
+        public IActionResult GetPublisherById(int id)
+        {
+            var _reponse = _PublisherService.GetPublisherID(id);
+            if(_reponse != null)
+            {
+                return Ok(_reponse);
+            }
+            else
+            {
+                return NotFound();
+            }
+            return Ok(_reponse);
         }
 
         [HttpGet("get-publisher-books-with-authors/{id}")]

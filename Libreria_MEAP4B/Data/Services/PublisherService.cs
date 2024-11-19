@@ -19,7 +19,7 @@ namespace Libreria_MEAP4B.Data.Services
         }
 
         //Metodo que nos permite agregar un nueva Editorial en a BD
-        public void AddPublisher(PublisherVM publisher)
+        public Publisher AddPublisher(PublisherVM publisher)
         {
             var _publisher = new Publisher()
             {
@@ -28,7 +28,11 @@ namespace Libreria_MEAP4B.Data.Services
             };
             _context.Publishers.Add(_publisher);
             _context.SaveChanges();
+
+            return _publisher;
         }
+
+        public Publisher GetPublisherID(int id) => _context.Publishers.FirstOrDefault(n => n.Id == id);
 
         public PublisherWithBooksAndAuthorsVM GetPublisherData(int publisherId)
         {
