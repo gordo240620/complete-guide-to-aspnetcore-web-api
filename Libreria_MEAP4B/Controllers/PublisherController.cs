@@ -1,7 +1,9 @@
 ﻿using Libreria_MEAP4B.Data.Services;
 using Libreria_MEAP4B.Data.ViewModels;
+using Libreria_MEAP4B.Exeptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace Libreria_MEAP4B.Controllers
 {
@@ -19,10 +21,25 @@ namespace Libreria_MEAP4B.Controllers
         [HttpPost("add-Publisher")]
         public IActionResult AddPublisher([FromBody] PublisherVM publisher)
         {
-            var newPublisher = _PublisherService.AddPublisher(publisher);
-            return Created(nameof(AddPublisher), newPublisher);
+            try
+            {
+                var newPublisher = _PublisherService.AddPublisher(publisher);
+                return Created(nameof(AddPublisher), newPublisher);
+
+            }
+            catch(PublisherNameExeptions ex)
+            {
+                return BadRequest($"{ex.Message}, Nombre de la editoria: {ex.PublisherName}");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+
+            }
+
+           
         }
-        //copia 
+        
         [HttpGet("get-publisher-by-id/{id}")]
         public IActionResult GetPublisherById(int id)
         {
@@ -48,8 +65,19 @@ namespace Libreria_MEAP4B.Controllers
         [HttpDelete("delete-publisher-by-id/{id}")]
         public IActionResult DeletePublisherDataId(int id)
         {
-            _PublisherService.DeletePublisherDataId(id);
-            return Ok();
+            try
+            {
+                
+
+                _PublisherService.DeletePublisherDataId(id);
+                return Ok();
+            }
+           
+            catch (Exception ex)
+            {
+               return BadRequest(ex.Message);
+            }
+            
         }
         
     }

@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:data\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\exeptions\\publishernameexeptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:exeptions\\publishernameexeptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|c:\\users\\pablo\\downloads\\libreria_meap4b\\libreria_meap4b\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47907045-AC46-4F2C-95BF-69648DD90428}|Libreria_MEAP4B.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,7 +78,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
@@ -88,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Data\\Services\\BookService.cs",
@@ -102,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Book.cs",
               "RelativeToolTip": "Data\\Models\\Book.cs",
-              "ViewState": "AgIAAAwAAAAAYJmZmZnZvxQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAy8zMzMwuwBQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T21:23:12.019Z",
               "IsPinned": true,
@@ -116,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BookAuthor.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\BookAuthor.cs",
               "RelativeDocumentMoniker": "Data\\Models\\BookAuthor.cs",
@@ -136,7 +140,7 @@
               "RelativeDocumentMoniker": "Data\\Services\\PublisherService.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\PublisherService.cs",
               "RelativeToolTip": "Data\\Services\\PublisherService.cs",
-              "ViewState": "AgIAABgAAABQMjMzM/MiwCQAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAACANjMzMzMKwBoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T19:03:08.869Z",
               "EditorCaption": ""
@@ -149,9 +153,22 @@
               "RelativeDocumentMoniker": "Controllers\\PublisherController.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\PublisherController.cs",
               "RelativeToolTip": "Controllers\\PublisherController.cs",
-              "ViewState": "AgIAABMAAACA/////387wCMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAADAmJmZmZklwB8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T23:52:48.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublisherNameExeptions.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Exeptions\\PublisherNameExeptions.cs",
+              "RelativeDocumentMoniker": "Exeptions\\PublisherNameExeptions.cs",
+              "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Exeptions\\PublisherNameExeptions.cs",
+              "RelativeToolTip": "Exeptions\\PublisherNameExeptions.cs",
+              "ViewState": "AgIAAAcAAABAZmZmZmYswBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:02:05.364Z",
               "EditorCaption": ""
             },
             {
@@ -160,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -173,20 +190,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PublisherVM.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\PublisherVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\PublisherVM.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\PublisherVM.cs",
               "RelativeToolTip": "Data\\ViewModels\\PublisherVM.cs",
-              "ViewState": "AgIAAAoAAAAYMjMzMzM/wBQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAwZGZmZmYswBQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T19:14:54.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\AppDbContext.cs",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthorsController.cs",
@@ -212,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AuthorVM.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\AuthorVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\AuthorVM.cs",
@@ -225,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AppDbinitializer.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\AppDbinitializer.cs",
               "RelativeDocumentMoniker": "Data\\AppDbinitializer.cs",
@@ -238,33 +255,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BookVM.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\BookVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\BookVM.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\ViewModels\\BookVM.cs",
               "RelativeToolTip": "Data\\ViewModels\\BookVM.cs",
-              "ViewState": "AgIAABMAAABwZmZmZmY4wBkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAABwZmZmZmY2wBkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:57:17.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Publisher.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Publisher.cs",
               "RelativeDocumentMoniker": "Data\\Models\\Publisher.cs",
               "ToolTip": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Models\\Publisher.cs",
               "RelativeToolTip": "Data\\Models\\Publisher.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA+wAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T03:00:43.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AuthorService.cs",
               "DocumentMoniker": "C:\\Users\\pablo\\Downloads\\Libreria_MEAP4B\\Libreria_MEAP4B\\Data\\Services\\AuthorService.cs",
               "RelativeDocumentMoniker": "Data\\Services\\AuthorService.cs",

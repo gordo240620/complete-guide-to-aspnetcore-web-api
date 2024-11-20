@@ -1,8 +1,10 @@
 ﻿using Libreria_MEAP4B.Data.Models;
 using Libreria_MEAP4B.Data.ViewModels;
+using Libreria_MEAP4B.Exeptions;
 using System;
 using System.Linq;
 using System.Security.Policy;
+using System.Text.RegularExpressions;
 using static Libreria_MEAP4B.Data.ViewModels.PublisherWithBooksAndAuthorsVM;
 using Publisher = Libreria_MEAP4B.Data.Models.Publisher;
 
@@ -21,6 +23,8 @@ namespace Libreria_MEAP4B.Data.Services
         //Metodo que nos permite agregar un nueva Editorial en a BD
         public Publisher AddPublisher(PublisherVM publisher)
         {
+            if (StringStartsWhithNumber(publisher.Name)) throw new PublisherNameExeptions("El nombre empieza con un numero",
+                publisher.Name); 
             var _publisher = new Publisher()
             {
                 Name = publisher.Name
@@ -57,6 +61,12 @@ namespace Libreria_MEAP4B.Data.Services
                 _context.Publishers.Remove(_publisher); 
                 _context.SaveChanges();
             }
+            else
+            {
+                throw new Exception($"La editora con ese id: {id} no existe");
+            }
         }
+        private bool StringStartsWhithNumber(string name) => (Regex.IsMatch(name, @"^\d"));
+        
     }
 }
